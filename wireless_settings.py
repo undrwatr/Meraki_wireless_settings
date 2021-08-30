@@ -7,7 +7,7 @@ import re
 
 #Meraki website info
 MERAKI_DASHBOARD = 'https://api.meraki.com'
-HEADERS = {'X-Cisco-Meraki-API-Key': (cred.key), 'Content-Type': 'application/json'}
+HEADERS = {'X-Cisco-Meraki-API-Key': ("1563ad656e3f36ef468c7a27d47f431266899444"), 'Content-Type': 'application/json'}
 
 #Regex for pulling in just the APs
 REGEX = re.compile("MR")
